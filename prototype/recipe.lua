@@ -11,7 +11,7 @@ data:extend({
         type = "recipe",
         name = "raw-fish",
         energy_required = 60,
-        category = "bioprocessing",
+        category = "fishprocessing",
         enabled = true,
         hidden = true,
         ingredients = {},
