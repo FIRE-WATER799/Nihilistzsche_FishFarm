@@ -6,12 +6,12 @@ data:extend({
         enabled = false,
         ingredients = {{"raw-fish", 20}, {"iron-plate", 10}},
         result = "fish-farm"
-    }, 
+    },
     {
         type = "recipe",
         name = "raw-fish",
         energy_required = 60,
-        category = "fishprocessing",
+        category = mods["Krastorio2"] and "bioprocessing" or "fishprocessing",
         enabled = true,
         hidden = true,
         ingredients = {},

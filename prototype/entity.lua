@@ -44,6 +44,7 @@ data:extend({
         drawing_box = {{-1.5, -1.7}, {1.5, 1.5}},
         fast_replaceable_group = "assembling-machine",
         module_specification = { module_slots = 4, module_info_icon_shift = { 0, 0.5 }, module_info_icon_scale = 0.5 },
+        allowed_effects = {"speed", "productivity", "consumption", "pollution"}, 
         animation = {
             layers = {
                 {
