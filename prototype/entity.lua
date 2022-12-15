@@ -88,7 +88,7 @@ data:extend({
                 }
             }
         },
-        crafting_categories = {"fishprocessing"},
+        crafting_categories = {mods["Krastorio2"] and "bioprocessing" or "fishprocessing"},
         crafting_speed = 1.75,
         energy_source = {
             type = "electric",
