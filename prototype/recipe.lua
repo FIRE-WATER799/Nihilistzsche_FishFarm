@@ -11,7 +11,7 @@ data:extend({
         type = "recipe",
         name = "raw-fish",
         energy_required = 60,
-        category = mods["Krastorio2"] and "bioprocessing" or "fishprocessing",
+        category = mods["Krastorio2"] and "bioprocessing" or "crafting",
         enabled = true,
         hidden = true,
         ingredients = {},
